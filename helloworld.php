@@ -28,9 +28,17 @@
 
 	for($i=0; $i<$age; $i=$i+1){
         //see, mida korratakse
-        echo "palju".$i.", ";
+        echo "palju, ";
     }
     
     echo "õnne";
+
+?>
+
+<br>
+<?php
+
+    echo date("l, d F Y e")
+    
 
 ?>
